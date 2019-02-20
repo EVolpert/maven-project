@@ -28,7 +28,7 @@ pipeline {
           input message: 'Approve PROD Deploy?'
         }
 
-        build job: '	maven-project-deploy-to-prod'
+        build job: 'maven-project-deploy-to-prod'
       }
       post {
         success {
